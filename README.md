@@ -1,0 +1,1 @@
+# Projeto de frontend estático

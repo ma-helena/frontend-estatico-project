@@ -1,0 +1,89 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50x;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #213a57;
+  text-color
+}
+
+
+
+h1 {
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+h3 {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type:circle;
+ 
+}
+
+header {
+  border-bottom: 4px solid #212e57 ;
+}
+
+
+
+.my-foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 8px solid #212e57;
+  
+}
+
+.contato div {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.info {
+  padding-top: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 5px;
+  background-color: #212e57;
+  
+}
+
+@media (min-width: 992px) {
+
+  .body-container {
+      margin: 20px;
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .my-foto{
+      width: 200px;
+      height: 200px;
+  }
+
+
+  h1,
+  h3 {
+      padding-top: 10px;
+  }
+
+  h1 {
+      font-size: 30px;
+  }
+
+  h3 {
+      font-size: 20px;
+  }
+  h4{
+    font-size: 15px;
+  }
+}
